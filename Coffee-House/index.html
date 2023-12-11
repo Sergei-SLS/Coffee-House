@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="background">
+    <div class="container">
       <header class="header-menu">
         <div class="logo">
           <img src="./image/logo.png" alt="logo" class="logo" />
@@ -54,23 +54,29 @@
           </div>
         </div>
       </section>
-      <section class="favourite-coffee" id="favorite-coffee">
-        <h2>Choose your favorite coffee</h2>
+      <section class="favorite-coffee" id="favorite-coffee">
+        <h2 class="favorite-h2">
+          Choose your <span class="favorite-span">favorite</span> coffee
+        </h2>
         <div class="favorite-slider">
           <button class="slider-left">
-            <img src="./svg/Vector-left.svg" alt="left" />
+            <img src="./svg/Vector-left.svg" alt="left" class="arrow-left" />
           </button>
           <div class="row-slider">
-            <img src="./image/coffee-slider-1.png" alt="glass" />
-            <h3>S’mores Frappuccino</h3>
-            <p>
+            <img
+              src="./image/coffee-slider-1.png"
+              alt="glass"
+              class="slider-img"
+            />
+            <h3 class="favorite-h3">S’mores Frappuccino</h3>
+            <p class="favorite-p">
               This new drink takes an espresso and mixes it with brown sugar and
               cinnamon before being topped with oat milk.
             </p>
-            <h3>$5.50</h3>
+            <h3 class="favorite-h3">$5.50</h3>
           </div>
           <button class="slider-right">
-            <img src="./svg/Vector-right.svg" alt="right" />
+            <img src="./svg/Vector-right.svg" alt="right" class="arrow-right" />
           </button>
         </div>
         <div class="controls"></div>
