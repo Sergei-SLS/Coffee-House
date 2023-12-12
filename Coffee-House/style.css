@@ -139,6 +139,10 @@ body {
   height: 440px;
 }
 
+.arrow-left {
+  transform: rotate(180deg);
+}
+
 .slider-left,
 .slider-right {
   border-radius: 50%;
@@ -174,4 +178,104 @@ body {
   line-height: 150%;
   text-align: center;
   margin: 16px;
+}
+
+.about {
+  width: 1360px;
+  margin: auto;
+}
+
+.about_title {
+}
+
+.about-h2 {
+  color: #403f3d;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  margin: 0 auto 40px;
+  text-align: justify;
+}
+
+.about-span {
+  color: #b0907a;
+  font-style: italic;
+}
+
+.about-gallery {
+  display: flex;
+  gap: 40px;
+}
+
+.about-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-img-1,
+.about-img-4 {
+  width: 660px;
+  height: 590px;
+  border-radius: 20px;
+  object-fit: none;
+}
+
+.about-img-2,
+.about-img-3 {
+  width: 660px;
+  height: 430px;
+  border-radius: 20px;
+  object-fit: none;
+}
+
+.mobile-app {
+  width: 1360px;
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+  margin: auto;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.download-h2 {
+  color: #403f3d;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.download-h2-span {
+  color: #b0907a;
+  font-style: italic;
+}
+
+.download-p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.download-button {
+  padding: 20px 78px;
+  border-radius: 100px;
+  border-style: solid;
+  background-color: #e1d4c9;
+  margin-bottom: 0px;
 }
