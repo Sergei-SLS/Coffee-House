@@ -273,9 +273,125 @@ body {
 }
 
 .download-button {
+  width: 200px;
+  height: 64px;
   padding: 20px 78px;
   border-radius: 100px;
   border-style: solid;
   background-color: #e1d4c9;
   margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.title-up {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.title-down {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.button-title {
+  display: flex;
+  flex-direction: column;
+  color: #403f3d;
+}
+
+.footer {
+  padding-bottom: 40px;
+}
+
+.contacts {
+  width: 1360px;
+  height: 450px;
+  background-color: #665f55;
+  border-radius: 40px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 335px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-offer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-slogan {
+  color: #e1d4c9;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  margin: 0 auto 40px;
+}
+
+.footer-span {
+  color: #b0907a;
+  font-style: italic;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: 1px solid #e1d4c9;
+  width: 58px;
+  height: 58px;
+  background-color: #665f55;
+}
+
+.contact-us {
+}
+
+.contact {
+  font-size: 30px;
+  color: #e1d4c9;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #e1d4c9;
+  font-size: 20px;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
