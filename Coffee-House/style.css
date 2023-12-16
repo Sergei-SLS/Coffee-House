@@ -217,12 +217,34 @@ body {
   gap: 40px;
 }
 
-.about-column {
+.about-column-1 {
   display: flex;
   flex-direction: column;
   gap: 40px;
   overflow: hidden;
+  border-radius: 20px;
+  width: 660px;
+  height: 1060px;
 }
+.about-column-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 660px;
+  height: 1060px;
+}
+
+/* .one-four {
+  width: 660px;
+  height: 590px;
+}
+
+.two-tree {
+  width: 660px;
+  height: 430px;
+} */
 
 .about-img-1,
 .about-img-4 {
@@ -230,23 +252,24 @@ body {
   height: 590px;
   border-radius: 20px;
   object-fit: none;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
 }
 
 .about-img-1:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .about-img-2:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .about-img-3:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .about-img-4:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .about-img-2,
@@ -254,8 +277,9 @@ body {
   width: 660px;
   height: 430px;
   border-radius: 20px;
-  object-fit: none;
-  transition: transform 0.3s ease-out;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
 }
 
 .mobile-app {
