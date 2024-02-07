@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1440px;
   background: #e1d4c9;
@@ -346,6 +350,13 @@ body {
   padding: 12px 20px;
 }
 
+.download-button:hover {
+  cursor: pointer;
+  background-color: #665f55;
+  color: #e1d4c9;
+  transition: 0.5s;
+}
+
 .icon {
   padding: 10px;
 }
@@ -424,6 +435,11 @@ body {
   width: 58px;
   height: 58px;
   background-color: #665f55;
+}
+
+.social-button:hover {
+  background-color: #e1d4c9;
+  color: #403f3d;
 }
 
 .contact-us {
@@ -574,6 +590,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 310px;
+  height: 506px;
   border: 1px solid #c1b6ad;
   border-radius: 40px;
   overflow: hidden;
